@@ -1,0 +1,34 @@
+[
+    {
+        "id": "6357993540f2b7856ae166d1",
+        "name": "web design"
+    },
+    {
+        "id": "63579935ca4cad33a3058f4d",
+        "name": "programming language"
+    },
+    {
+        "id": "63579935ce18eeb72f94829a",
+        "name": "css framework"
+    },
+    {
+        "id": "63579935e3d70d7a286c81c0",
+        "name": "frontend"
+    },
+    {
+        "id": "635799352bd0daf78c71d46f",
+        "name": "authentication"
+    },
+    {
+        "id": "63579935ad93b93ede5d501e",
+        "name": "backend"
+    },
+    {
+        "id": "63579935a8897ef0bf562736",
+        "name": "database"
+    },
+    {
+        "id": "6357993582cb57c48c6d076a",
+        "name": "react framework"
+    }
+]

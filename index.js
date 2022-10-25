@@ -3,6 +3,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const courses = require("./data/courses.json");
+const categories = require("./data/categories.json");
 
 // server running
 app.get("/", (req, res) => {
@@ -21,6 +22,11 @@ app.get("/courses/:id", (req, res) => {
   const course = courses.find(course => course.id === id);
 
   res.send(course);
+});
+
+// get all categories
+app.get("/categories", (req, res) => {
+  res.send(categories);
 });
 
 // app listening
