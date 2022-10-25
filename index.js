@@ -29,6 +29,19 @@ app.get("/categories", (req, res) => {
   res.send(categories);
 });
 
+// get courses by category
+app.get("/categories/:category", (req, res) => {
+  const id = req.params.category;
+
+  if (id === "09") {
+    res.send(courses);
+  } else {
+    const coursesFiltered = courses.filter(course => course.category_id === id);
+
+    res.send(coursesFiltered);
+  }
+});
+
 // app listening
 app.listen(port, () => {
   console.log(`Server running at port ${port}`);
